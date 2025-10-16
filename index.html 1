@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Academic Management System - Student Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+    }
+    .left-panel {
+      width: 45%;
+      background-color: white;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .right-panel {
+      width: 45%;
+      text-align: center;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .logo img {
+      height: 60px;
+      margin-right: 15px;
+    }
+    .logo-text {
+      font-size: 18px;
+      font-weight: bold;
+      color: #800000;
+    }
+    h1 {
+      color: #800000;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: green;
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .login-btn {
+      background-color: purple;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .note {
+      margin-top: 15px;
+      font-size: 12px;
+      color: #555;
+    }
+    .graphics img {
+      width: 150px;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <div class="logo">
+        <img src="logo.png" alt="Vel Tech Logo">
+        <div class="logo-text">Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology<br>STUDENT LOGIN</div>
+      </div>
+      <h1>ACADEMIC MANAGEMENT SYSTEM</h1>
+      <h2>STUDENT LOGIN</h2>
+      <form>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <button class="login-btn">LET'S GO</button>
+        <div class="note">*number as username and password in capital let</div>
+      </form>
+    </div>
+    <div class="right-panel">
+      <div class="graphics">
+        <img src="books.png" alt="Books Graphic">
+        <img src="academic.png" alt="Academic Graphic">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
